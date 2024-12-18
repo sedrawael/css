@@ -1,0 +1,441 @@
+.a{
+border: solid 5px;
+width: 70px;
+height: 40px;
+padding: 40px;
+
+}
+.b{
+    border-style: dotted ;
+    color: red;
+    height: 40px;
+    padding: 40px;
+    width: 70px;
+   
+}
+.c{
+border-style: dashed;
+border-color: blue;
+height: 40px;
+padding: 40px;
+width: 70px;
+}
+.d{
+    border-style: double;
+    border-color: purple;
+    height: 40px;
+    padding: 40px;
+    width: 70px;
+}
+.e{
+    border: groove ;
+     border-color: fuchsia;
+    height: 40px;
+    padding: 40px;
+    width: 70px;
+}
+.f{
+border: ridge;
+ border-color: greenyellow;
+height: 40px;
+padding: 40px;
+width: 70px;
+}
+.G{
+    border: inset ;
+    border-color: yellow;
+    height: 40px;
+    padding: 40px;
+    width: 70px;
+}
+.h{
+    border: outset;
+     border-color: brown;
+    height: 40px;
+    padding: 40px;
+    width: 70px;
+}
+/*......task4.html......*/
+.i{
+border: 5px solid;
+color: blue;
+height: 60px;
+width: 90px;
+padding: 40px;
+}
+.j{
+    outline: 5px solid;
+    outline-color: red;
+    height: 60px;
+width: 90px;
+padding: 40px;
+}
+.k{
+border: 5px solid;
+border-color: blue;
+outline: 5px solid;
+outline-color: red;
+outline-style: dashed;
+height: 60px;
+width: 90px;
+padding: 40px;
+}
+.l{
+    border: 5px solid;
+    border-color:green ;
+
+   outline-offset: 15px;
+outline: 5px solid yellow;
+height: 60px;
+width: 90px;
+padding: 40px;
+}
+/*......task5.html......*/
+.m {
+    border: 5px solid;
+    border-color: blueviolet;
+    width: 600px;
+   
+    padding: 70px;
+    background-color: palevioletred;
+}
+/*......task6html....*/
+.n{
+margin: 200px 200px 200px 200px ;
+
+background-color: palevioletred;
+width: 600px;
+height: 200px;
+}
+/*.....task7......*/
+.o{
+box-shadow: 10px 10px 15px;
+background-color: rgba(255, 68, 0, 0.493);
+width: 200px ;
+height: 200px;
+}
+.p{
+box-shadow: inset 5px 5px 10px;
+background-color: rgba(255, 68, 0, 0.493);
+width: 200px ;
+height: 200px;
+}
+.q{   
+    box-shadow: -5px -5px 10px;
+    
+    background-color: rgba(255, 68, 0, 0.493);
+width: 200px ;
+height: 200px;
+}
+/*........task8.html......*/
+.r{
+position: relative;
+border: 5px solid;
+ border-color: black;
+ width: 900px;
+ height: 100px;
+}
+.s{
+background-color: blue;
+position: fixed ;
+width: 900px;
+height: 100px;
+
+}
+.t{
+background-color: aqua;
+width: 500px;
+height: 90px;
+position: absolute;
+top: 30px;
+left:  100px;  
+
+}
+/*..........task9.....*/
+
+.red{
+background-color: red;
+ height: 100px;
+ position: absolute;
+ z-index: -2;
+ top: 30px;
+ left: 30px;
+ width: 200px;
+
+}
+.green{
+    background-color: green;
+    height: 100px;
+    z-index: -4;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+}
+.blue{
+background-color: blue;
+height: 100px;
+position: absolute;
+z-index: -1;
+top: 40px;
+left: 40px;
+width: 200px;
+}
+.yellw{
+    background-color: yellow;
+    height: 100px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    z-index: -3;
+    width: 200px;
+}
+/*......task10.html......*/
+.ab{
+
+
+
+}
+.cd{
+background-color: blue;
+height: 100px;
+width: 100px;
+position: absolute;
+top: 0%;
+}
+.ef{
+background-color: greenyellow;
+height: 100px;
+width: 100px;
+position: absolute;
+bottom: 0;
+}
+.gh{
+background-color: yellow;
+height: 100px;
+width: 100px;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+.ij{
+background-color: plum;
+height: 100px;
+width: 100px;
+position: absolute;
+right: 0;
+}
+/*.......task11.htm......*/
+.co{
+margin: 20px;
+}
+.ti{
+    font-size: 18px;
+    font-weight: bold;
+}
+.box{
+padding: 20px;
+border-left: 5px solid red;
+border-bottom: 5px dashed blue;
+}
+.box p{
+font-style: 16px;
+color: #ff0;
+}
+/*.......task12.html......*/
+.qw{
+    border-style: dashed ;
+    border-color: red;
+    background-color: wheat;
+}
+.ww{
+    margin: 100px;
+    padding: 100px;
+    background-color: rgba(0, 255, 255, 0.562);
+    outline: auto blue;
+ }
+ /*......task13......*/
+ .mm{
+
+ height: 300px;
+ width: 250px;
+
+border: solid blue;
+background-color: white;
+overflow: scroll;
+ }
+ /*....task14.html.....*/
+.ff{
+height: 200px;
+width: 180px;
+border: solid red;
+box-shadow: 5px  -5px blue ,
+10px -10px 0 0 green ,
+15px -15px 0 0 purple
+;
+}
+/*........task15html......*/
+.wael{
+height: 500px;
+width: 800px;
+position: relative;
+}
+.pp{
+background-color: palevioletred;
+height: 90px;
+width: 80px;
+}
+.ii{
+    background-color: blue;
+    height: 90px;
+width: 80px;
+}
+
+.rr{
+background-color: #ff0;
+height: 90px;
+width: 80px;
+}
+
+
+.vv{
+background-color: rgba(0, 128, 0, 0.596);
+height: 90px;
+width: 80px;
+}
+
+
+.uu{
+background-color: blueviolet;height: 90px;
+width: 80px;
+height: 90px;
+}
+
+
+.kk{
+background-color: rgba(216, 112, 190, 0.486);height: 90px;
+width: 80px;
+height: 90px;
+}
+
+
+.ll{
+background-color: violet;
+height: 90px;
+width: 80px;
+}
+
+
+
+.jj{
+background-color: navy;
+height: 90px;
+width: 80px;
+}
+
+.cc{
+background-color: rgba(0, 102, 255, 0.712);
+height: 90px;
+width: 80px;
+}
+
+.zz{
+background-color: rgba(216, 112, 143, 0.774);
+height: 90px;
+width: 80px;
+}
+/*......tasl16htm;.....*/
+
+.uuu img{height: 60px;
+position: fixed;
+
+}
+/*.....task17.html......*/
+*{
+ margin: 0px;
+ padding: 0px;
+box-sizing: border-box;
+}
+nav{
+width: 100%;
+height: 40px;
+color: beige;
+background-color: black;
+display: flex;
+justify-content: flex-start;
+}
+.sss{
+width: 100%;
+display: flex;
+justify-content: flex-start;
+margin-left: 40px;
+}
+.eee{
+    list-style: none;
+    padding: 0px 20px;
+}
+/*......task18.html......*/
+
+.ooo img{
+    position: absolute;
+  border: #ff0 solid;
+  width: 300px;
+  height: 250px;
+}
+.img1 {
+ z-index: 1;
+ position: relative;
+}
+.img2 {
+ 
+    top: 100px;
+    left: 100px;
+   
+    position: absolute;
+}
+.img3 {
+  
+  top: 150px; 
+  left: 150px;
+ 
+  position: absolute;
+}
+.img4 {
+top: 200px;
+position: relative;
+left: 200px;
+;}
+/*.....task19......*/
+.img8{
+  
+ border-style: solid;
+border-image-width: 9px ;
+border-image-slice: 100;
+ border-image-repeat: repeat;
+border-image-source:url(306.jpg) ;
+
+}
+/*.......tasl.......*/
+.qwerty{
+height: 160px;
+width: 150px;
+background-color: #ff0;
+}
+.asdfgh{
+    height: 160px;
+    width: 150px;
+    background-color: #ff0;
+opacity: 75%;
+}
+.zxcvb{
+height: 160px;
+width: 150px;
+background-color: #ff0;
+opacity: 50%;
+}
+.noor{
+    height: 160px;
+    width: 150px;
+    background-color: #ff0;
+    opacity: 25%;
+}

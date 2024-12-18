@@ -1,0 +1,22 @@
+.b{
+    height: 200px;
+    width: 200px;
+    background-color: #ff0;
+    border: 5px dotted;
+    overflow: scroll;
+ }
+   .ss{
+    height: 200px;
+    width: 200px;
+    background-color: #ff0;
+    border: 5px dotted;
+overflow: hidden;
+}
+.c{
+
+    height: 200px;
+    width: 200px;
+    background-color: #ff0;
+    border: 5px dotted;
+    overflow: auto;
+}
